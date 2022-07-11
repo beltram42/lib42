@@ -6,7 +6,7 @@
 #    By: alambert <alambert@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/01/24 18:46:28 by alambert          #+#    #+#              #
-#    Updated: 2022/06/28 12:04:44 by alambert         ###   ########.fr        #
+#    Updated: 2022/07/11 17:55:08 by alambert         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -73,6 +73,7 @@ FILES = ft_absf.c \
 		ft_strpbrk.c \
 		ft_strrchr.c \
 		ft_strspncspn.c \
+		ft_strcspnfb.c \
 		ft_strspnfb.c \
 		ft_strtok_r.c \
 		ft_strtol.c \

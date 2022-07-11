@@ -6,7 +6,7 @@
 /*   By: alambert <alambert@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/07 20:44:08 by alambert          #+#    #+#             */
-/*   Updated: 2022/07/07 20:49:03 by alambert         ###   ########.fr       */
+/*   Updated: 2022/07/11 17:54:45 by alambert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,6 +83,7 @@ char		*ft_strnstr(const char *str, const char *to_find, size_t n);
 char		*ft_strpbrk(const char *str, const char *set);
 char		*ft_strrchr(const char *str, int c);
 int			ft_strspncspn(const char *str, const char *set, int gear);
+int			ft_strcspnfb(const char *str, const char *set, int gear);
 int			ft_strspnfb(const char *str, const char *set, int gear);
 char		*ft_strtok_r(char *str, const char *sep, char **saveptr);
 long		ft_strtol(const char *str, char **endptr, int base);
@@ -91,6 +92,7 @@ char		*ft_substr(char const *s, unsigned int start, size_t len);
 int			ft_tolower(int c);
 int			ft_toupper(int c);
 char		*get_next_line(int fd);
+
 
 typedef struct s_list
 {
