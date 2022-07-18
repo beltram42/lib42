@@ -6,7 +6,7 @@
 #    By: alambert <alambert@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/01/24 18:46:28 by alambert          #+#    #+#              #
-#    Updated: 2022/07/11 17:55:08 by alambert         ###   ########.fr        #
+#    Updated: 2022/07/19 00:01:48 by alambert         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,6 +17,7 @@ FILES = ft_absf.c \
 		ft_bzero.c \
 		ft_calloc.c \
 		ft_free.c \
+		ft_filesize.c \
 		ft_isalnum.c \
 		ft_isalpha.c \
 		ft_isascii.c \

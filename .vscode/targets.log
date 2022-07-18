@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Mon Jul 11 18:04:19 2022
+# Make data base, printed on Tue Jul 19 00:08:14 2022
 
 # Variables
 
@@ -40,20 +40,18 @@ XMODIFIERS = @im=ibus
 CURDIR := /mnt/nfs/homes/alambert/Documents/lib42
 # makefile
 SHELL = /bin/sh
-# makefile (from 'Makefile', line 95)
+# makefile (from 'Makefile', line 96)
 RM = rm -f
-# environment
-GDM_LANG = en
 # environment
 VTE_VERSION = 6003
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
 _ = /usr/bin/code
-# makefile (from 'Makefile', line 94)
+# makefile (from 'Makefile', line 95)
 CFLAGS = -Wall -Wextra -Werror 
 # environment
-JOURNAL_STREAM = 9:521859
+JOURNAL_STREAM = 9:4878840
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # makefile (from 'Makefile', line 1)
@@ -61,7 +59,7 @@ MAKEFILE_LIST :=  Makefile
 # automatic
 @F = $(notdir $@)
 # environment
-IM_CONFIG_PHASE = 1
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
 # 'override' directive
 GNUMAKEFLAGS := 
 # environment
@@ -72,18 +70,18 @@ XDG_DATA_DIRS = /usr/share/gnome:/usr/share/ubuntu:/mnt/nfs/homes/alambert/.loca
 DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/101471/bus
 # environment
 VSCODE_VERBOSE_LOGGING = true
-# makefile (from 'Makefile', line 87)
+# makefile (from 'Makefile', line 88)
 OBJS = $(FILES:.c=.o)
 # environment
-MANAGERPID = 134049
+MANAGERPID = 576624
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/101471/vscode-ipc-47b3fb8a-07d7-466f-8bba-e2d0e4e5232a.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/101471/vscode-ipc-ed83d3f7-c7bd-49ac-a66e-60edb40f6420.sock
 # environment
 VSCODE_CWD = /mnt/nfs/homes/alambert/Documents/lib42
 # environment
-XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session1
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session5
 # environment
-KRB5CCNAME = FILE:/tmp/krb5cc_101471_CtDmUZ
+KRB5CCNAME = FILE:/tmp/krb5cc_101471_dD4Sqw
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
@@ -93,10 +91,10 @@ GPG_AGENT_INFO = /run/user/101471/gnupg/S.gpg-agent:0:1
 # environment
 LSCOLORS = Gxfxcxdxbxegedabagacad
 # environment
-SESSION_MANAGER = local/e1r5p21.clusters.42paris.fr:@/tmp/.ICE-unix/134579,unix/e1r5p21.clusters.42paris.fr:/tmp/.ICE-unix/134579
+SESSION_MANAGER = local/e1r13p2.clusters.42paris.fr:@/tmp/.ICE-unix/577150,unix/e1r13p2.clusters.42paris.fr:/tmp/.ICE-unix/577150
 # environment
 XDG_RUNTIME_DIR = /run/user/101471
-# makefile (from 'Makefile', line 96)
+# makefile (from 'Makefile', line 97)
 AR = ar rcs
 # environment
 XDG_MENU_PREFIX = gnome-
@@ -105,7 +103,7 @@ VSCODE_LOG_STACK = false
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = ba202c4e04e54c17b11a366e7908c426
+INVOCATION_ID = 1429149aebd04c358228417216b2d3af
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -118,6 +116,8 @@ LS_COLORS = rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:
 XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/101471/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 577513
 # automatic
 %F = $(notdir $%)
 # environment
@@ -129,7 +129,7 @@ PWD = /mnt/nfs/homes/alambert/Documents/lib42
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 134543
+SSH_AGENT_PID = 577114
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -166,8 +166,10 @@ MAKECMDGOALS := all
 QT_IM_MODULE = ibus
 # environment
 SHLVL = 2
-# makefile (from 'Makefile', line 93)
+# makefile (from 'Makefile', line 94)
 CC = gcc
+# environment
+IM_CONFIG_PHASE = 1
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -190,8 +192,6 @@ OLDPWD = /mnt/nfs/homes/alambert/Documents
 .VARIABLES := 
 # automatic
 *F = $(notdir $*)
-# environment
-LANGUAGE = en
 # environment
 XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
 # environment
@@ -225,11 +225,11 @@ LC_ALL = C
 # environment
 GJS_DEBUG_TOPICS = JS ERROR;JS LOG
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/fc4b2a7f_42aa_42c2_a5e4_9457b20af77e
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/1059fc02_e5cf_46eb_be93_49e907782c2a
 # automatic
 ^F = $(notdir $^)
 # environment
-GNOME_TERMINAL_SERVICE = :1.2162
+GNOME_TERMINAL_SERVICE = :1.89
 # default
 SUFFIXES := 
 # environment
@@ -238,7 +238,7 @@ CHROME_DESKTOP = code-url-handler.desktop
 .INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
 # environment
 GJS_DEBUG_OUTPUT = stderr
-# makefile (from 'Makefile', line 90)
+# makefile (from 'Makefile', line 91)
 NAME = lib42.a
 # default
 .RECIPEPREFIX := 
@@ -249,11 +249,11 @@ TERM = xterm-256color
 # environment
 DOCKER_HOST = unix:///run/user/101471/docker.sock
 # environment
-VSCODE_PID = 137375
+VSCODE_PID = 577513
 # makefile (from 'Makefile', line 13)
-FILES = ft_absf.c ft_absi.c ft_atoi.c ft_atoi.c ft_bzero.c ft_calloc.c ft_free.c ft_isalnum.c ft_isalpha.c ft_isascii.c ft_iscntrl.c ft_isdigit.c ft_islower.c ft_isprint.c ft_isspace.c ft_isupper.c ft_itoa.c ft_itoav.c ft_lstadd_back.c ft_lstadd_front.c ft_lstclear.c ft_lstdelone.c ft_lstiter.c ft_lstlast.c ft_lstmap.c ft_lstnew.c ft_lstsize.c ft_malgets.c ft_malmove.c ft_memchr.c ft_memcmp.c ft_memcpy.c ft_memmove.c ft_memset.c ft_putchar_fd.c ft_putchar.c ft_putendl_fd.c ft_putnbr_fd.c ft_putnbr.c ft_putstr_fd.c ft_putstr.c ft_sadd.c ft_sdiv.c ft_smult.c ft_split.c ft_strcat.c ft_strchr.c ft_strcpy.c ft_strdup.c ft_striteri.c ft_strjoin.c ft_strlcat.c ft_strlcpy.c ft_strlen.c ft_strncat.c ft_strncpy.c ft_strmapi.c ft_strncmp.c ft_strnlen.c ft_strnstr.c ft_strpbrk.c ft_strrchr.c ft_strspncspn.c ft_strcspnfb.c ft_strspnfb.c ft_strtok_r.c ft_strtol.c ft_strtrim.c ft_substr.c ft_tolower.c ft_toupper.c get_next_line.c 
+FILES = ft_absf.c ft_absi.c ft_atoi.c ft_atoi.c ft_bzero.c ft_calloc.c ft_free.c ft_filesize.c ft_isalnum.c ft_isalpha.c ft_isascii.c ft_iscntrl.c ft_isdigit.c ft_islower.c ft_isprint.c ft_isspace.c ft_isupper.c ft_itoa.c ft_itoav.c ft_lstadd_back.c ft_lstadd_front.c ft_lstclear.c ft_lstdelone.c ft_lstiter.c ft_lstlast.c ft_lstmap.c ft_lstnew.c ft_lstsize.c ft_malgets.c ft_malmove.c ft_memchr.c ft_memcmp.c ft_memcpy.c ft_memmove.c ft_memset.c ft_putchar_fd.c ft_putchar.c ft_putendl_fd.c ft_putnbr_fd.c ft_putnbr.c ft_putstr_fd.c ft_putstr.c ft_sadd.c ft_sdiv.c ft_smult.c ft_split.c ft_strcat.c ft_strchr.c ft_strcpy.c ft_strdup.c ft_striteri.c ft_strjoin.c ft_strlcat.c ft_strlcpy.c ft_strlen.c ft_strncat.c ft_strncpy.c ft_strmapi.c ft_strncmp.c ft_strnlen.c ft_strnstr.c ft_strpbrk.c ft_strrchr.c ft_strspncspn.c ft_strcspnfb.c ft_strspnfb.c ft_strtok_r.c ft_strtol.c ft_strtrim.c ft_substr.c ft_tolower.c ft_toupper.c get_next_line.c 
 # variable set hash-table stats:
-# Load=120/1024=12%, Rehash=0, Collisions=18/149=12%
+# Load=120/1024=12%, Rehash=0, Collisions=19/149=13%
 
 # Pattern-specific Variable Values
 
@@ -261,9 +261,9 @@ FILES = ft_absf.c ft_absi.c ft_atoi.c ft_atoi.c ft_bzero.c ft_calloc.c ft_free.c
 
 # Directories
 
-# . (device 59, inode 41945205): 78 files, no impossibilities.
+# . (device 55, inode 41945205): 79 files, no impossibilities.
 
-# 78 files, no impossibilities in 1 directories.
+# 79 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -277,6 +277,7 @@ ft_strmapi.o:
 #  Modification time never checked.
 #  File has not been updated.
 
+ 
 # Not a target:
 ft_lstiter.o:
 #  Implicit rule search has not been done.
@@ -294,7 +295,6 @@ ft_memcpy.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
- 
 
 # Not a target:
 ft_itoa.o:
@@ -310,6 +310,12 @@ ft_memcmp.o:
 
 # Not a target:
 ft_strlen.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ft_memchr.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -352,7 +358,7 @@ ft_lstlast.o:
 #  File has not been updated.
 
 # Not a target:
-ft_memchr.o:
+ft_filesize.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
@@ -432,7 +438,7 @@ ft_putstr.o:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-07-11 17:55:08.734634929
+#  Last modified 2022-07-19 00:01:48.241873
 #  File has been updated.
 #  Successfully updated.
 
@@ -448,11 +454,11 @@ ft_strcat.o:
 #  Modification time never checked.
 #  File has not been updated.
 
-lib42.a: ft_absf.o ft_absi.o ft_atoi.o ft_atoi.o ft_bzero.o ft_calloc.o ft_free.o ft_isalnum.o ft_isalpha.o ft_isascii.o ft_iscntrl.o ft_isdigit.o ft_islower.o ft_isprint.o ft_isspace.o ft_isupper.o ft_itoa.o ft_itoav.o ft_lstadd_back.o ft_lstadd_front.o ft_lstclear.o ft_lstdelone.o ft_lstiter.o ft_lstlast.o ft_lstmap.o ft_lstnew.o ft_lstsize.o ft_malgets.o ft_malmove.o ft_memchr.o ft_memcmp.o ft_memcpy.o ft_memmove.o ft_memset.o ft_putchar_fd.o ft_putchar.o ft_putendl_fd.o ft_putnbr_fd.o ft_putnbr.o ft_putstr_fd.o ft_putstr.o ft_sadd.o ft_sdiv.o ft_smult.o ft_split.o ft_strcat.o ft_strchr.o ft_strcpy.o ft_strdup.o ft_striteri.o ft_strjoin.o ft_strlcat.o ft_strlcpy.o ft_strlen.o ft_strncat.o ft_strncpy.o ft_strmapi.o ft_strncmp.o ft_strnlen.o ft_strnstr.o ft_strpbrk.o ft_strrchr.o ft_strspncspn.o ft_strcspnfb.o ft_strspnfb.o ft_strtok_r.o ft_strtol.o ft_strtrim.o ft_substr.o ft_tolower.o ft_toupper.o get_next_line.o
+lib42.a: ft_absf.o ft_absi.o ft_atoi.o ft_atoi.o ft_bzero.o ft_calloc.o ft_free.o ft_filesize.o ft_isalnum.o ft_isalpha.o ft_isascii.o ft_iscntrl.o ft_isdigit.o ft_islower.o ft_isprint.o ft_isspace.o ft_isupper.o ft_itoa.o ft_itoav.o ft_lstadd_back.o ft_lstadd_front.o ft_lstclear.o ft_lstdelone.o ft_lstiter.o ft_lstlast.o ft_lstmap.o ft_lstnew.o ft_lstsize.o ft_malgets.o ft_malmove.o ft_memchr.o ft_memcmp.o ft_memcpy.o ft_memmove.o ft_memset.o ft_putchar_fd.o ft_putchar.o ft_putendl_fd.o ft_putnbr_fd.o ft_putnbr.o ft_putstr_fd.o ft_putstr.o ft_sadd.o ft_sdiv.o ft_smult.o ft_split.o ft_strcat.o ft_strchr.o ft_strcpy.o ft_strdup.o ft_striteri.o ft_strjoin.o ft_strlcat.o ft_strlcpy.o ft_strlen.o ft_strncat.o ft_strncpy.o ft_strmapi.o ft_strncmp.o ft_strnlen.o ft_strnstr.o ft_strpbrk.o ft_strrchr.o ft_strspncspn.o ft_strcspnfb.o ft_strspnfb.o ft_strtok_r.o ft_strtol.o ft_strtrim.o ft_substr.o ft_tolower.o ft_toupper.o get_next_line.o
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 102):
+#  recipe to execute (from 'Makefile', line 103):
 	$(AR) $(NAME) $(OBJS)
 
 # Not a target:
@@ -512,7 +518,7 @@ ft_putnbr_fd.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 99):
+#  recipe to execute (from 'Makefile', line 100):
 	$(CC) $(CFLAGS) -c $< -o $(<:.c=.o)
 
 # Not a target:
@@ -526,7 +532,7 @@ fclean: clean
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 109):
+#  recipe to execute (from 'Makefile', line 110):
 	$(RM) $(NAME)
 
 # Not a target:
@@ -548,6 +554,7 @@ ft_absi.o:
 #  File has not been updated.
 
 # Not a target:
+ 
 ft_smult.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -584,7 +591,6 @@ ft_strpbrk.o:
 #  File has not been updated.
 
 # Not a target:
- 
 ft_strlcpy.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -613,7 +619,7 @@ clean:
 #  Implicit rule search has not been done.
 #  File does not exist.
 #  File has not been updated.
-#  recipe to execute (from 'Makefile', line 106):
+#  recipe to execute (from 'Makefile', line 107):
 	$(RM) $(OBJS)
 
 # Not a target:
@@ -761,19 +767,19 @@ ft_putendl_fd.o:
 #  File has not been updated.
 
 # files hash-table stats:
-# Load=81/1024=8%, Rehash=0, Collisions=12/169=7%
+# Load=82/1024=8%, Rehash=0, Collisions=14/171=8%
 # VPATH Search Paths
 
 # No 'vpath' search paths.
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 160 / storage = 1961 B / avg = 12 B
-# current buf: size = 8162 B / used = 1961 B / count = 160 / avg = 12 B
+# strcache buffers: 1 (0) / strings = 162 / storage = 1989 B / avg = 12 B
+# current buf: size = 8162 B / used = 1989 B / count = 162 / avg = 12 B
 
-# strcache performance: lookups = 177 / hit rate = 9%
+# strcache performance: lookups = 179 / hit rate = 9%
 # hash-table stats:
-# Load=160/8192=2%, Rehash=0, Collisions=7/177=4%
-# Finished Make data base on Mon Jul 11 18:04:19 2022
+# Load=162/8192=2%, Rehash=0, Collisions=7/179=4%
+# Finished Make data base on Tue Jul 19 00:08:14 2022
 
  
