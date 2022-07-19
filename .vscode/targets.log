@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Jul 19 00:08:14 2022
+# Make data base, printed on Tue Jul 19 15:26:48 2022
 
 # Variables
 
@@ -43,6 +43,8 @@ SHELL = /bin/sh
 # makefile (from 'Makefile', line 96)
 RM = rm -f
 # environment
+GDM_LANG = en
+# environment
 VTE_VERSION = 6003
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
@@ -51,7 +53,7 @@ _ = /usr/bin/code
 # makefile (from 'Makefile', line 95)
 CFLAGS = -Wall -Wextra -Werror 
 # environment
-JOURNAL_STREAM = 9:4878840
+JOURNAL_STREAM = 9:53184
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # makefile (from 'Makefile', line 1)
@@ -73,15 +75,15 @@ VSCODE_VERBOSE_LOGGING = true
 # makefile (from 'Makefile', line 88)
 OBJS = $(FILES:.c=.o)
 # environment
-MANAGERPID = 576624
+MANAGERPID = 3554
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/101471/vscode-ipc-ed83d3f7-c7bd-49ac-a66e-60edb40f6420.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/101471/vscode-ipc-a56ab723-e158-4a33-96f2-5e3290a1a76d.sock
 # environment
 VSCODE_CWD = /mnt/nfs/homes/alambert/Documents/lib42
 # environment
-XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session5
+XDG_SESSION_PATH = /org/freedesktop/DisplayManager/Session0
 # environment
-KRB5CCNAME = FILE:/tmp/krb5cc_101471_dD4Sqw
+KRB5CCNAME = FILE:/tmp/krb5cc_101471_zg3hkO
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
@@ -91,7 +93,7 @@ GPG_AGENT_INFO = /run/user/101471/gnupg/S.gpg-agent:0:1
 # environment
 LSCOLORS = Gxfxcxdxbxegedabagacad
 # environment
-SESSION_MANAGER = local/e1r13p2.clusters.42paris.fr:@/tmp/.ICE-unix/577150,unix/e1r13p2.clusters.42paris.fr:/tmp/.ICE-unix/577150
+SESSION_MANAGER = local/e1r4p19.clusters.42paris.fr:@/tmp/.ICE-unix/4088,unix/e1r4p19.clusters.42paris.fr:/tmp/.ICE-unix/4088
 # environment
 XDG_RUNTIME_DIR = /run/user/101471
 # makefile (from 'Makefile', line 97)
@@ -103,7 +105,7 @@ VSCODE_LOG_STACK = false
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = 1429149aebd04c358228417216b2d3af
+INVOCATION_ID = b103c90b05c74f15a2944ac9c82993ad
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -117,7 +119,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/101471/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 577513
+GIO_LAUNCHED_DESKTOP_FILE_PID = 4455
 # automatic
 %F = $(notdir $%)
 # environment
@@ -129,7 +131,7 @@ PWD = /mnt/nfs/homes/alambert/Documents/lib42
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 577114
+SSH_AGENT_PID = 4052
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -193,6 +195,8 @@ OLDPWD = /mnt/nfs/homes/alambert/Documents
 # automatic
 *F = $(notdir $*)
 # environment
+LANGUAGE = en
+# environment
 XDG_SEAT_PATH = /org/freedesktop/DisplayManager/Seat0
 # environment
 VSCODE_IPC_HOOK = /run/user/101471/vscode-191f4bdd-1.68.1-main.sock
@@ -225,11 +229,11 @@ LC_ALL = C
 # environment
 GJS_DEBUG_TOPICS = JS ERROR;JS LOG
 # environment
-GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/1059fc02_e5cf_46eb_be93_49e907782c2a
+GNOME_TERMINAL_SCREEN = /org/gnome/Terminal/screen/30621ace_51fa_423a_a183_b25a3eeccb0c
 # automatic
 ^F = $(notdir $^)
 # environment
-GNOME_TERMINAL_SERVICE = :1.89
+GNOME_TERMINAL_SERVICE = :1.85
 # default
 SUFFIXES := 
 # environment
@@ -249,11 +253,11 @@ TERM = xterm-256color
 # environment
 DOCKER_HOST = unix:///run/user/101471/docker.sock
 # environment
-VSCODE_PID = 577513
+VSCODE_PID = 4455
 # makefile (from 'Makefile', line 13)
 FILES = ft_absf.c ft_absi.c ft_atoi.c ft_atoi.c ft_bzero.c ft_calloc.c ft_free.c ft_filesize.c ft_isalnum.c ft_isalpha.c ft_isascii.c ft_iscntrl.c ft_isdigit.c ft_islower.c ft_isprint.c ft_isspace.c ft_isupper.c ft_itoa.c ft_itoav.c ft_lstadd_back.c ft_lstadd_front.c ft_lstclear.c ft_lstdelone.c ft_lstiter.c ft_lstlast.c ft_lstmap.c ft_lstnew.c ft_lstsize.c ft_malgets.c ft_malmove.c ft_memchr.c ft_memcmp.c ft_memcpy.c ft_memmove.c ft_memset.c ft_putchar_fd.c ft_putchar.c ft_putendl_fd.c ft_putnbr_fd.c ft_putnbr.c ft_putstr_fd.c ft_putstr.c ft_sadd.c ft_sdiv.c ft_smult.c ft_split.c ft_strcat.c ft_strchr.c ft_strcpy.c ft_strdup.c ft_striteri.c ft_strjoin.c ft_strlcat.c ft_strlcpy.c ft_strlen.c ft_strncat.c ft_strncpy.c ft_strmapi.c ft_strncmp.c ft_strnlen.c ft_strnstr.c ft_strpbrk.c ft_strrchr.c ft_strspncspn.c ft_strcspnfb.c ft_strspnfb.c ft_strtok_r.c ft_strtol.c ft_strtrim.c ft_substr.c ft_tolower.c ft_toupper.c get_next_line.c 
 # variable set hash-table stats:
-# Load=120/1024=12%, Rehash=0, Collisions=19/149=13%
+# Load=122/1024=12%, Rehash=0, Collisions=19/151=13%
 
 # Pattern-specific Variable Values
 
@@ -261,7 +265,7 @@ FILES = ft_absf.c ft_absi.c ft_atoi.c ft_atoi.c ft_bzero.c ft_calloc.c ft_free.c
 
 # Directories
 
-# . (device 55, inode 41945205): 79 files, no impossibilities.
+# . (device 59, inode 41945205): 79 files, no impossibilities.
 
 # 79 files, no impossibilities in 1 directories.
 
@@ -274,10 +278,10 @@ FILES = ft_absf.c ft_absi.c ft_atoi.c ft_atoi.c ft_bzero.c ft_calloc.c ft_free.c
 # Not a target:
 ft_strmapi.o:
 #  Implicit rule search has not been done.
+ 
 #  Modification time never checked.
 #  File has not been updated.
 
- 
 # Not a target:
 ft_lstiter.o:
 #  Implicit rule search has not been done.
@@ -554,7 +558,6 @@ ft_absi.o:
 #  File has not been updated.
 
 # Not a target:
- 
 ft_smult.o:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -569,6 +572,7 @@ ft_malmove.o:
 # Not a target:
 ft_isalpha.o:
 #  Implicit rule search has not been done.
+ 
 #  Modification time never checked.
 #  File has not been updated.
 
@@ -780,6 +784,6 @@ ft_putendl_fd.o:
 # strcache performance: lookups = 179 / hit rate = 9%
 # hash-table stats:
 # Load=162/8192=2%, Rehash=0, Collisions=7/179=4%
-# Finished Make data base on Tue Jul 19 00:08:14 2022
+# Finished Make data base on Tue Jul 19 15:26:48 2022
 
  

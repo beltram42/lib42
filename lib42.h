@@ -6,7 +6,7 @@
 /*   By: alambert <alambert@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/07 20:44:08 by alambert          #+#    #+#             */
-/*   Updated: 2022/07/19 00:01:15 by alambert         ###   ########.fr       */
+/*   Updated: 2022/07/19 15:21:08 by alambert         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ float		ft_absf(float i);
 int			ft_atoi(const char *str);
 void		ft_bzero(void *s, size_t n);
 void		*ft_calloc(size_t n, size_t size);
-void		ft_filesize(int fd, int count[2]);
+void		ft_filesize(char *filename, int count[2]);
 char		*ft_free(char **str);
 int			ft_isalnum(int c);
 int			ft_isalpha(int c);
